@@ -1,0 +1,140 @@
+
+:root {
+    --font-family: "Young Serif", serif;
+}
+
+body {
+    background: #f3e5d8;
+}
+
+main {
+    width: 800px;
+    background: #fff;
+    border-radius: 16px;
+    margin: 80px auto 80px;
+    
+       h2 {
+            color: #854732;
+            font-family: var(--font-family);
+        }
+
+
+   
+    .image-section {
+        text-align: center;
+    }
+
+    .image-section img {
+        width: 700px;
+        border-radius: 16px;
+        margin: 40px auto 20px;
+    }
+
+    .text-section h1, p {
+       font-family: var(--font-family);
+       margin-inline: 45px;
+       padding: 3px  3px;
+    
+    }
+
+    .preparation-section {
+        background-color: #fff7fc;
+        padding: 20px;
+        border-radius: 16px;
+        margin: auto 30px auto 45px;
+
+        h3{
+            font-family: var(--font-family);
+            color: #7c455e;
+        }
+
+        ul {
+            font-family: var(--font-family);
+            box-sizing: border-box;
+        }
+
+        ul li {
+            line-height: 2rem;
+        }
+
+        ul li::marker {
+            color: #7c455e;
+        }
+    }
+
+    .ingredients {
+
+       
+     
+        ul {
+            font-family: var(--font-family);
+            margin: 0 !important;
+        }
+
+        ul li {
+            line-height: 2rem;
+        }
+
+        ul li::marker {
+            
+            color:#854732;
+        }
+
+         margin-inline: 40px;
+        border-bottom: 1px solid hsla(0, 0%, 80%, 0.363);
+    }
+
+    .section-instructions {
+
+        margin-inline: 40px;
+        border-bottom: 1px solid hsla(0, 0%, 80%, 0.363);
+        
+        ul {
+            font-family: var(--font-family);
+            list-style:decimal;
+        }
+
+        ul li {
+            line-height: 1.7rem;
+        }
+
+        ul li::marker {
+            
+            color:#854732;
+        }
+    }
+
+    
+    .nutrition {
+
+        h2 {
+            margin-inline: 40px;
+        }
+        padding-bottom: 40px;
+      
+        .nutrition-item {
+            
+            display: grid;
+            grid-auto-flow: column;
+            font-family: var(--font-family);
+            align-items: center;
+            padding: 8px 0;
+            margin-inline: 40px;
+            border-bottom: 1px solid hsla(0, 0%, 80%, 0.363);
+        }
+
+        .nutrition-item span:last-child{
+            color:#854732;
+        }
+
+        .nutrition-item span:first-child{
+            margin-left: 30px;
+        }
+
+        .nutrition-item:last-child {
+            border:none;
+        }
+    }
+}
+
+
